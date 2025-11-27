@@ -1,0 +1,16 @@
+name: PR analysis (required)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run example linter
+        run: |
+          # adjust to your repo: this should exit non-zero when issues exist
+          echo "running lint"
+          # example: exit 0 if ok, exit 1 to fail
