@@ -19,9 +19,6 @@
             <!-- Navbar Search-->
           
         </nav>
-        <?php
-            echo "Testing for error handling";
-        ?>
         <div id="layoutSidenav">
        
             <div id="layoutSidenav_content">
