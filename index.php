@@ -21,7 +21,6 @@
         </nav>
         <?php
             echo "Testing for error handling";
-            
         ?>
         <div id="layoutSidenav">
        
