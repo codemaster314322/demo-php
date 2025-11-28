@@ -20,7 +20,7 @@
           
         </nav>
         <?php
-            echo "Testing for error handling!";
+            echo "Testing for error handling";
         ?>
         <div id="layoutSidenav">
        
@@ -66,7 +66,7 @@
             
                     </div>
                 </main>
-   <?php include_once('includes/footer.php');?>
+   <?php include once('includes/footer.php');?>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
